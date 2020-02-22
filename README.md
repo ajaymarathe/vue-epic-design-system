@@ -1,7 +1,7 @@
 # Vue Epic Design System
-Hi there, Vue Epic Design System is open source UI-KIT for Vue lovers based on Bootcatch Epic Theme thanks :)
+Vue Epic Design System is open source UI-KIT for Vue lovers based on Bootcatch Epic Theme thanks :)
 
-[![NPM](https://img.shields.io/npm/v/fa-react-icon.svg)](https://www.npmjs.com/package/fa-react-icon)  [![NPM](https://img.shields.io/npm/dt/fa-react-icon.svg)](https://www.npmjs.com/package/fa-react-icon) 
+[![NPM](https://img.shields.io/npm/v/vue-epic-design-system.svg)](https://www.npmjs.com/package/vue-epic-design-system)  [![NPM](https://img.shields.io/npm/dt/vue-epic-design-system.svg)](https://www.npmjs.com/package/vue-epic-design-system) 
 ![license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Table of Contents
@@ -18,25 +18,32 @@ Hi there, Vue Epic Design System is open source UI-KIT for Vue lovers based on B
 
 ## Quick Start
 ```
+$  npm i vue-epic-design-system --save
+
+Or
 //Clone the repo.
 
 $ git clone https://github.com/ajaymarathe/vue-epic-design-system.git  
-
-//After cloning Hit following commands.
-
-$ npm install
-
-$ npm run serve
 ```
 
-## Usage
+## [Usage](http://blog.bootcatch.com/post/vue-components-based-design-system-is-based-on-bootcatch-themes-and-vue)
 
-After downloading, you can do whatever you want to do, like you can modify all the componenets and css and then make awesome templates as you want.
-hope this will help you.
+After download you can simply import DesignSystem in your main.js file and then you ready to use.
+
+```js
+// change the path of your design system
+// import DesignSystem from '<your design system/>/plugins/DesignSystem';
+
+import DesignSystem from 'vue-epic-design-system/plugins/DesignSystem';  // import here
+
+Vue.use(DesignSystem);  // use imported designSystem in Vue.use()
+```
+
+[Read Docs](http://blog.bootcatch.com/post/vue-components-based-design-system-is-based-on-bootcatch-themes-and-vue)
 
 ## About
 
-Vue Hero Design System is Vue and Bootstrap 4.x ( bootcatch-themes ) based UI-KIT. It is a component-based design system, It has different color styles and ready to use bootstrap components on a single click.
+Vue Epic Design System is Vue and Bootstrap 4.x ( bootcatch-themes ) based UI-KIT. It is a component-based design system, It has different color styles and ready to use bootstrap components on a single click.
 
 So download and use for your next project, thanks.
 
